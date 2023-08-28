@@ -1,0 +1,17 @@
+{
+  "name": "@root/docs",
+  "version": "1.0.0",
+  "description": "项目说明文档",
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "NODE_ENV=production && vitepress build .",
+    "serve": "NODE_ENV=production vitepress serve . --port 5001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.47",
+    "vue": "^3.2.45"
+  }
+}
