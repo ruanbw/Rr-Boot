@@ -2,8 +2,8 @@
 layout: home
 hero:
   name: Rr-Boot
-  text: 基于Vite4、Vue3、TS、Monorepo模板
-  tagline: 集成Vue3、Vue-Router、Pinia、Vite4、Typescript、Element Plus、UnoCSS的Monorepo架构的后台管理系统模版
+  text: Monorepo 架构的系统模版
+  tagline: Monorepo 架构的系统模版
   image:
     src: /logo.svg
     alt: VitePress
@@ -16,9 +16,23 @@ hero:
       link: https://github.com/vuejs/vitepress
 features:
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: Monorepo 架构
+    details: 为项目提供更好的类型支持
+  - icon: 
+      src: /logo.svg
+    title: Vite
+    details: 为项目提供更好的类型支持
+  - icon: 
+      src: /vue.svg
+    title: Vue 生态
+    details: Vue3、VueRouter、Pinia、Element Plus、UnoCSS...
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: TypeScript 支持
+    details: 为项目提供更好的类型支持
+  - icon: 🛠️
+    title: VitePress
+    details: 为项目提供说明文档
+  - icon: 🛠️
+    title: TypeScript 支持
+    details: 为项目提供更好的类型支持
 ---

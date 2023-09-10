@@ -5,7 +5,7 @@ export default {
   lastUpdated: true,
   themeConfig: {
     siteTitle: 'Rr-Boot',
-    logo: '../logo.svg',
+    logo: './logo.svg',
     outlineTitle: "本页目录",
     outline: "deep",
     markdown: {
@@ -25,6 +25,18 @@ export default {
         text: '快速开始',
         items: [
           { text: '简介', link: '/pages/introduce/index' },
+        ]
+      },
+      {
+        text: '项目说明文档',
+        items: [
+          { text: '简介', link: '/pages/docs/index' },
+        ]
+      },
+      {
+        text: '后台管理端',
+        items: [
+          { text: '简介', link: '/pages/manage/index' },
         ]
       },
     ],
